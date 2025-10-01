@@ -13,7 +13,7 @@ interface AboutSectionProps {
   };
 }
 
-const iconMap: Record<string, any> = {
+const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   calendar: Calendar,
   briefcase: Briefcase,
   users: Users,

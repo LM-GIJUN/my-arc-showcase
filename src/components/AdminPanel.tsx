@@ -3,12 +3,13 @@ import { X, Download, Save } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
+import type { PortfolioData } from "@/types/portfolio";
 
 interface AdminPanelProps {
   isOpen: boolean;
   onClose: () => void;
-  portfolioData: any;
-  onSave: (data: any) => void;
+  portfolioData: PortfolioData;
+  onSave: (data: PortfolioData) => void;
 }
 
 const AdminPanel = ({ isOpen, onClose, portfolioData, onSave }: AdminPanelProps) => {

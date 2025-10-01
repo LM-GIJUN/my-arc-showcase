@@ -14,7 +14,7 @@ interface AwardsSectionProps {
   awards: Award[];
 }
 
-const iconMap: Record<string, any> = {
+const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   award: Award,
   trophy: Trophy,
   "graduation-cap": GraduationCap,

@@ -10,6 +10,7 @@ import AwardsSection from "@/components/AwardsSection";
 import ContactSection from "@/components/ContactSection";
 import AdminPanel from "@/components/AdminPanel";
 import portfolioDataImport from "@/data/portfolio.json";
+import type { PortfolioData } from "@/types/portfolio";
 
 const Index = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -61,7 +62,7 @@ const Index = () => {
     });
   };
 
-  const handleSavePortfolioData = (newData: any) => {
+  const handleSavePortfolioData = (newData: PortfolioData) => {
     setPortfolioData(newData);
     localStorage.setItem("portfolioData", JSON.stringify(newData));
   };
