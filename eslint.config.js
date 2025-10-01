@@ -19,7 +19,7 @@ export default tseslint.config(
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
-      "react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
+      "react-refresh/only-export-components": "off", // Fast refresh 경고 비활성화
       "@typescript-eslint/no-unused-vars": "off",
     },
   },

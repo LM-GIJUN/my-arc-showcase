@@ -3,7 +3,7 @@ import { X, Download, Save } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
-import type { PortfolioData } from "@/types/portfolio";
+import type { PortfolioData, isPortfolioData } from "@/types/portfolio";
 
 interface AdminPanelProps {
   isOpen: boolean;
@@ -20,8 +20,12 @@ const AdminPanel = ({ isOpen, onClose, portfolioData, onSave }: AdminPanelProps)
   const handleSave = () => {
     try {
       const parsed = JSON.parse(jsonData);
-      onSave(parsed);
-      toast.success("Changes saved successfully!");
+      if (isPortfolioData(parsed)) {
+        onSave(parsed);
+        toast.success("Changes saved successfully!");
+      } else {
+        toast.error("Invalid portfolio data structure. Please check your input.");
+      }
     } catch (error) {
       toast.error("Invalid JSON format. Please check your input.");
     }

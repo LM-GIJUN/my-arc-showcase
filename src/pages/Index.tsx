@@ -10,20 +10,25 @@ import AwardsSection from "@/components/AwardsSection";
 import ContactSection from "@/components/ContactSection";
 import AdminPanel from "@/components/AdminPanel";
 import portfolioDataImport from "@/data/portfolio.json";
-import type { PortfolioData } from "@/types/portfolio";
+import type { PortfolioData, isPortfolioData } from "@/types/portfolio";
 
 const Index = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [logoClickCount, setLogoClickCount] = useState(0);
   const [isAdminOpen, setIsAdminOpen] = useState(false);
-  const [portfolioData, setPortfolioData] = useState(portfolioDataImport);
+  const [portfolioData, setPortfolioData] = useState<PortfolioData>(portfolioDataImport as PortfolioData);
 
   useEffect(() => {
     // Load saved data from localStorage if available
     const savedData = localStorage.getItem("portfolioData");
     if (savedData) {
       try {
-        setPortfolioData(JSON.parse(savedData));
+        const parsedData = JSON.parse(savedData);
+        if (isPortfolioData(parsedData)) {
+          setPortfolioData(parsedData);
+        } else {
+          console.error("Invalid portfolio data format");
+        }
       } catch (error) {
         console.error("Failed to load saved portfolio data:", error);
       }
