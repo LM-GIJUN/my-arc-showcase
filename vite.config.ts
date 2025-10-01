@@ -50,15 +50,8 @@ export default defineConfig(({ mode }) => ({
       },
     },
     
-    // 압축 설정
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        // 콘솔 로그 제거 (프로덕션)
-        drop_console: mode === 'production',
-        drop_debugger: mode === 'production',
-      },
-    },
+    // 압축 설정 (esbuild 사용 - 더 빠름)
+    minify: 'esbuild',
   },
   
   // 기본 경로 설정 (GitHub Pages 배포용)
