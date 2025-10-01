@@ -1,0 +1,268 @@
+{
+  "profile": {
+    "name": "Your Name",
+    "tagline": "Full Stack Developer & Creative Technologist",
+    "shortIntro": "Passionate about building beautiful, performant web experiences that make a difference.",
+    "detailedIntro": "I'm a full-stack developer with a passion for creating elegant solutions to complex problems. With expertise in modern web technologies and a keen eye for design, I bridge the gap between functionality and aesthetics. My approach combines technical excellence with user-centered thinking to deliver products that not only work flawlessly but also delight users.",
+    "email": "your.email@example.com",
+    "phone": "+1 234 567 8900",
+    "location": "Seoul, South Korea",
+    "profileImage": "/placeholder.svg",
+    "social": {
+      "github": "https://github.com/yourusername",
+      "linkedin": "https://linkedin.com/in/yourusername",
+      "website": "https://yourwebsite.com",
+      "kakao": "https://open.kakao.com/o/yourid"
+    },
+    "kpis": [
+      {
+        "label": "Years of Experience",
+        "value": "5+",
+        "icon": "calendar"
+      },
+      {
+        "label": "Projects Completed",
+        "value": "50+",
+        "icon": "briefcase"
+      },
+      {
+        "label": "Happy Clients",
+        "value": "30+",
+        "icon": "users"
+      },
+      {
+        "label": "Code Commits",
+        "value": "10K+",
+        "icon": "git-commit"
+      }
+    ]
+  },
+  "experiences": [
+    {
+      "id": "exp1",
+      "company": "Tech Innovations Inc",
+      "position": "Senior Full Stack Developer",
+      "period": "2022 - Present",
+      "startDate": "2022-03",
+      "endDate": null,
+      "description": "Leading development of enterprise-scale web applications, mentoring junior developers, and architecting scalable solutions.",
+      "achievements": [
+        "Architected and deployed a microservices platform serving 100K+ users",
+        "Reduced application load time by 60% through optimization",
+        "Mentored 5 junior developers and established code review practices"
+      ]
+    },
+    {
+      "id": "exp2",
+      "company": "Digital Solutions Co",
+      "position": "Full Stack Developer",
+      "period": "2020 - 2022",
+      "startDate": "2020-01",
+      "endDate": "2022-02",
+      "description": "Developed and maintained multiple client-facing web applications using React, Node.js, and PostgreSQL.",
+      "achievements": [
+        "Built 15+ production-ready web applications",
+        "Implemented CI/CD pipeline reducing deployment time by 70%",
+        "Collaborated with design team to improve UX/UI standards"
+      ]
+    },
+    {
+      "id": "exp3",
+      "company": "StartUp Ventures",
+      "position": "Junior Developer",
+      "period": "2019 - 2020",
+      "startDate": "2019-06",
+      "endDate": "2019-12",
+      "description": "Contributed to various web development projects, learning modern frameworks and best practices.",
+      "achievements": [
+        "Developed responsive front-end interfaces for 10+ projects",
+        "Participated in agile development processes",
+        "Gained proficiency in React, TypeScript, and modern CSS"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Frontend Development",
+      "color": "primary",
+      "skills": [
+        { "name": "React / Next.js", "level": 95 },
+        { "name": "TypeScript", "level": 90 },
+        { "name": "Tailwind CSS", "level": 95 },
+        { "name": "Vue.js", "level": 75 }
+      ]
+    },
+    {
+      "category": "Backend Development",
+      "color": "accent",
+      "skills": [
+        { "name": "Node.js / Express", "level": 90 },
+        { "name": "Python / Django", "level": 80 },
+        { "name": "PostgreSQL / MongoDB", "level": 85 },
+        { "name": "GraphQL / REST APIs", "level": 88 }
+      ]
+    },
+    {
+      "category": "DevOps & Tools",
+      "color": "success",
+      "skills": [
+        { "name": "Docker / Kubernetes", "level": 80 },
+        { "name": "AWS / GCP", "level": 75 },
+        { "name": "CI/CD Pipelines", "level": 85 },
+        { "name": "Git / GitHub Actions", "level": 92 }
+      ]
+    },
+    {
+      "category": "Design & UX",
+      "color": "warning",
+      "skills": [
+        { "name": "Figma / Adobe XD", "level": 85 },
+        { "name": "UI/UX Design", "level": 80 },
+        { "name": "Responsive Design", "level": 95 },
+        { "name": "Animation / Framer", "level": 75 }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "E-Commerce Platform",
+      "image": "/placeholder.svg",
+      "description": "A full-featured e-commerce platform with real-time inventory management, payment processing, and admin dashboard.",
+      "techStack": ["React", "Node.js", "PostgreSQL", "Stripe", "Redis"],
+      "tags": ["Web App", "E-Commerce", "Full Stack"],
+      "contribution": "Lead Developer - Full architecture and implementation",
+      "results": "Processed $2M+ in transactions, 50K+ active users",
+      "links": {
+        "demo": "https://demo.example.com",
+        "github": "https://github.com/example/project",
+        "website": "https://project.example.com"
+      }
+    },
+    {
+      "id": "proj2",
+      "title": "AI-Powered Analytics Dashboard",
+      "image": "/placeholder.svg",
+      "description": "Real-time analytics dashboard with AI-driven insights, data visualization, and predictive analytics.",
+      "techStack": ["Next.js", "TypeScript", "Python", "TensorFlow", "D3.js"],
+      "tags": ["AI/ML", "Analytics", "Dashboard"],
+      "contribution": "Frontend Lead & Data Visualization",
+      "results": "Improved decision-making speed by 40% for clients",
+      "links": {
+        "demo": "https://demo.example.com",
+        "website": "https://analytics.example.com"
+      }
+    },
+    {
+      "id": "proj3",
+      "title": "Social Media Management Tool",
+      "image": "/placeholder.svg",
+      "description": "Multi-platform social media management with scheduling, analytics, and team collaboration features.",
+      "techStack": ["React", "Firebase", "Node.js", "OAuth", "Chart.js"],
+      "tags": ["SaaS", "Social Media", "Productivity"],
+      "contribution": "Full Stack Developer",
+      "results": "1000+ businesses using the platform daily",
+      "links": {
+        "demo": "https://demo.example.com",
+        "github": "https://github.com/example/social-tool"
+      }
+    },
+    {
+      "id": "proj4",
+      "title": "Healthcare Appointment System",
+      "image": "/placeholder.svg",
+      "description": "HIPAA-compliant appointment booking system with video consultations and patient records management.",
+      "techStack": ["Next.js", "Express", "MongoDB", "WebRTC", "AWS"],
+      "tags": ["Healthcare", "Web App", "Video"],
+      "contribution": "Backend Architect & Security Lead",
+      "results": "10K+ appointments booked, 99.9% uptime",
+      "links": {
+        "website": "https://healthcare.example.com"
+      }
+    },
+    {
+      "id": "proj5",
+      "title": "Real-time Collaboration Tool",
+      "image": "/placeholder.svg",
+      "description": "Collaborative workspace with real-time editing, video chat, and project management features.",
+      "techStack": ["React", "Socket.io", "Redis", "WebRTC", "PostgreSQL"],
+      "tags": ["Collaboration", "Real-time", "Productivity"],
+      "contribution": "Lead Developer",
+      "results": "5K+ teams collaborating daily",
+      "links": {
+        "demo": "https://demo.example.com",
+        "website": "https://collab.example.com"
+      }
+    },
+    {
+      "id": "proj6",
+      "title": "Mobile Fitness App",
+      "image": "/placeholder.svg",
+      "description": "Cross-platform fitness tracking app with workout plans, nutrition tracking, and social features.",
+      "techStack": ["React Native", "Firebase", "Node.js", "MongoDB"],
+      "tags": ["Mobile", "Health", "Social"],
+      "contribution": "Mobile Developer",
+      "results": "100K+ downloads, 4.8★ rating",
+      "links": {
+        "demo": "https://demo.example.com",
+        "github": "https://github.com/example/fitness-app"
+      }
+    }
+  ],
+  "awards": [
+    {
+      "id": "award1",
+      "title": "AWS Certified Solutions Architect",
+      "category": "certification",
+      "period": "2023",
+      "organization": "Amazon Web Services",
+      "description": "Professional level certification demonstrating expertise in designing distributed systems on AWS.",
+      "icon": "award"
+    },
+    {
+      "id": "award2",
+      "title": "Best Innovation Award",
+      "category": "achievement",
+      "period": "2022",
+      "organization": "Tech Conference 2022",
+      "description": "Recognized for innovative approach to solving complex distributed systems challenges.",
+      "icon": "trophy"
+    },
+    {
+      "id": "award3",
+      "title": "Google Cloud Professional Developer",
+      "category": "certification",
+      "period": "2022",
+      "organization": "Google Cloud",
+      "description": "Certification in designing, building, and deploying applications on Google Cloud Platform.",
+      "icon": "badge-check"
+    },
+    {
+      "id": "award4",
+      "title": "Advanced React Patterns",
+      "category": "training",
+      "period": "2021",
+      "organization": "Frontend Masters",
+      "description": "Intensive training on advanced React patterns, performance optimization, and architecture.",
+      "icon": "graduation-cap"
+    },
+    {
+      "id": "award5",
+      "title": "Hackathon Winner",
+      "category": "achievement",
+      "period": "2021",
+      "organization": "Global Dev Hackathon",
+      "description": "First place for developing an AI-powered accessibility tool in 48 hours.",
+      "icon": "trophy"
+    },
+    {
+      "id": "award6",
+      "title": "Full Stack Development Bootcamp",
+      "category": "training",
+      "period": "2019",
+      "organization": "Coding Academy",
+      "description": "Intensive 6-month program covering modern web development technologies and best practices.",
+      "icon": "book-open"
+    }
+  ]
+}
